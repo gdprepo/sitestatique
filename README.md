@@ -41,7 +41,7 @@ Mode                LastWriteTime         Length Name
 
 Ensuite vous trouverai le fichier index.html qui est votre fichier markdown en html
 ```
-PS C:\Users\Gabin\Desktop\convertMdToHtml\HTML> cat .\index.html
+PS C:\Users\Desktop\convertMdToHtml\HTML> cat .\index.html
 <h1>Titre</h1>
 <h2>SOUS titre</h2>
 <h3>sousous titre</h3>
