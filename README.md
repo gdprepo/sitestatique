@@ -39,7 +39,7 @@ Mode                LastWriteTime         Length Name
 
 ### 3
 
-Ensuite vous trouverai le fichier index.html qui est votre fichier markdown en html
+Et vous trouverai le fichier index.html qui est votre fichier markdown en html
 ```
 PS C:\Users\Desktop\convertMdToHtml\HTML> cat .\index.html
 <h1>Titre</h1>
