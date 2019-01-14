@@ -20,9 +20,9 @@ d-----       14/01/2019     17:29                HTML
 
 
 ### 2
-```
-Ensuite executer le programme qui convertira le fichier en html et le placera dans le dossier HTML
 
+Ensuite executer le programme qui convertira le fichier en html et le placera dans le dossier HTML
+```
 PS C:\Users\Desktop\convertMdToHtml> python .\convert_md.py
 PS C:\Users\Desktop\convertMdToHtml> cd .\HTML\
 PS C:\Users\Desktop\convertMdToHtml\HTML> ls
