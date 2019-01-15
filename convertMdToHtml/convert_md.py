@@ -13,6 +13,9 @@ def convert_to_html():
 def create_html(html):
     fichier = open("./HTML/index.html", "w")
     fichier = open("./HTML/index.html", "a")
+    base_html = codecs.open("basehtml.txt", mode="r", encoding="utf-8")
+    txt_baseHtml = base_html.read()
+    fichier.write(txt_baseHtml)
     fichier.write(html)
 
 
