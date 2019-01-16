@@ -4,17 +4,22 @@
 
 ### 1
 
-Pour commencer placer votre fichier markdown a la racine du dossier et renommer le markdown.md
+Pour commencer placer votre fichier markdown dans le dossier Markdown à la racine du dossier et renommer le markdown.md
 
 ```
+PS C:\Users\Desktop\convertMdToHtml> ls
+
+
     Répertoire : C:\Users\Desktop\convertMdToHtml
 
 
 Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
-d-----       14/01/2019     17:29                HTML
--a----       14/01/2019     17:29            423 convert_md.py
--a----       14/01/2019     17:14            112 markdown.md
+d-----       16/01/2019     15:22               ** Markdown **
+d-----       16/01/2019     14:53                sitestatique
+d-----       16/01/2019     13:50                template
+-a----       16/01/2019     15:27           2226 convert_md.py
+
 
 ```
 
