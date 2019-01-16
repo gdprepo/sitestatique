@@ -21,7 +21,7 @@ d-----       16/01/2019     13:50                template
 
 ```
 ```
-PS C:\Users\Gabin\Desktop\convertMdToHtml\Markdown> ls
+PS C:\Users\Desktop\convertMdToHtml\Markdown> ls
     Répertoire : C:\Users\Desktop\convertMdToHtml\Markdown
 
 
@@ -41,7 +41,7 @@ PS C:\Users\Desktop\convertMdToHtml> python .\convert_md.py
 ```
 ou
 ```
-PS C:\Users\Gabin\Desktop\convertMdToHtml\sitestatique\HTML> python .\convert_md.py -i .\Markdown\ -o .\sitestatique\
+PS C:\Users\Desktop\convertMdToHtml\sitestatique\HTML> python .\convert_md.py -i .\Markdown\ -o .\sitestatique\
 ```
 ### 3
 
