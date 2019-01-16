@@ -1,0 +1,26 @@
+body
+{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: Nunito Sans;
+    color: #5f5f63;
+}
+
+p
+{
+    padding: 10px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin-right: 10%;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+    color: #222328;
+    margin-right: 40px;
+}
