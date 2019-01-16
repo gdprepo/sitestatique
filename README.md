@@ -4,12 +4,10 @@
 
 ### 1
 
-Pour commencer placer votre fichier markdown dans le dossier Markdown à la racine du dossier et renommer le markdown.md
+Pour commencer placer votre fichier markdown ainsi que les images dans le dossier Markdown à la racine du dossier et renommer le markdown.md
 
 ```
 PS C:\Users\Desktop\convertMdToHtml> ls
-
-
     Répertoire : C:\Users\Desktop\convertMdToHtml
 
 
@@ -22,39 +20,62 @@ d-----       16/01/2019     13:50                template
 
 
 ```
-
-
-### 2
-
-Ensuite executer le programme qui convertira le fichier en html et le placera dans le dossier HTML
 ```
-PS C:\Users\Desktop\convertMdToHtml> python .\convert_md.py
-PS C:\Users\Desktop\convertMdToHtml> cd .\HTML\
-PS C:\Users\Desktop\convertMdToHtml\HTML> ls
-
-
-    Répertoire : C:\Users\Desktop\convertMdToHtml\HTML
+PS C:\Users\Gabin\Desktop\convertMdToHtml\Markdown> ls
+    Répertoire : C:\Users\Desktop\convertMdToHtml\Markdown
 
 
 Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
--a----       14/01/2019     17:36            204 index.html
+-a----       16/01/2019     15:21          12989 logo.png
+-a----       16/01/2019     15:26            328 ** markdown.md **
 
 ```
 
+
+### 2
+
+Ensuite executer le programme qui convertira le fichier markdown en html/css avec ou sans les parametres d'execution
+```
+PS C:\Users\Desktop\convertMdToHtml> python .\convert_md.py
+```
+ou
+```
+PS C:\Users\Gabin\Desktop\convertMdToHtml\sitestatique\HTML> python .\convert_md.py -i .\Markdown\ -o .\sitestatique\
+```
 ### 3
 
-Et vous trouverai le fichier index.html qui est votre fichier markdown en html
+Et vous trouverai les fichiers index.html et index.css dans le dossier sitestatique 
 ```
-PS C:\Users\Desktop\convertMdToHtml\HTML> cat .\index.html
-<h1>Titre</h1>
-<h2>SOUS titre</h2>
-<h3>sousous titre</h3>
-<p>paragraphe</p>
-<p><em>texte</em></p>
-<p><a href="http://www.siteduzero.com">http://www.siteduzero.com</a></p>
-<ul>
-<li>liste</li>
-</ul>
+PS C:\Users\Desktop\convertMdToHtml\sitestatique> ls
+    Répertoire : C:\Users\Desktop\convertMdToHtml\sitestatique
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       16/01/2019     13:48                CSS
+d-----       16/01/2019     15:25                HTML
+
+
+PS C:\Users\Desktop\convertMdToHtml\sitestatique> cd .\CSS\
+PS C:\Users\Desktop\convertMdToHtml\sitestatique\CSS> ls
+    Répertoire : C:\Users\Desktop\convertMdToHtml\sitestatique\CSS
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       16/01/2019     15:49           1342 ** index.css **
+
+
+PS C:\Users\Desktop\convertMdToHtml\sitestatique\CSS> cd ..
+PS C:\Users\Desktop\convertMdToHtml\sitestatique> cd .\HTML\
+PS C:\Users\Desktop\convertMdToHtml\sitestatique\HTML> ls
+    Répertoire : C:\Users\Desktop\convertMdToHtml\sitestatique\HTML
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       16/01/2019     15:49            895 ** index.html **
+
 ```
 
