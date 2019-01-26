@@ -4,7 +4,7 @@
 
 ### 1
 
-Pour commencer placer votre fichier markdown ainsi que les images dans le dossier Markdown à la racine du dossier et renommer le markdown.md
+Pour commencer placer vos fichiers markdown ainsi que les images dans le dossier Markdown et renommer les markdown1.md, markdown2.md etc..
 
 ```
 PS C:\Users\Desktop\convertMdToHtml> ls
@@ -28,7 +28,7 @@ PS C:\Users\Desktop\convertMdToHtml\Markdown> ls
 Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
 -a----       16/01/2019     15:21          12989 logo.png
--a----       16/01/2019     15:26            328 ** markdown.md **
+-a----       16/01/2019     15:26            328 ** markdown1.md **
 
 ```
 
