@@ -42,9 +42,10 @@ PS C:\Users\Desktop\convertMdToHtml> python .\convert_md.py
 ou
 ```
 PS C:\Users\Desktop\convertMdToHtml\sitestatique\HTML> python .\convert_md.py -i .\Markdown\ -o .\sitestatique\
+```
 Le -i vous permez de choisir le dossier avec le fichier markdown
 Le -o sert a choisir le dossier ou vous trouverez les fichier css et html
-```
+
 
 ### 3
 
