@@ -1,9 +1,0 @@
-        <footer>
-            <p>Posted by: Gabin</p>
-            <p>Contact information: <a href="gabin.depaire@ynov.com">
-            gabin.depaire@ynov.com</a>.</p>
-        </footer>
-
-    </body>
-
-</html>
