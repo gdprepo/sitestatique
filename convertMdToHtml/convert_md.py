@@ -7,8 +7,8 @@ from pathlib import Path
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-i", "--input", type=str,help="dossier markdown")
-parser.add_argument("-o", "--output", type=str,help="dossier site")
+parser.add_argument("-i", "--input", "--input-directory", type=str,help="dossier markdown")
+parser.add_argument("-o", "--output", "--output-directory", type=str,help="dossier site")
 args = parser.parse_args()
 
 if args.input != None:
