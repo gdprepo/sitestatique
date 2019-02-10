@@ -4,7 +4,7 @@
 
 ### 1
 
-Pour commencer placer vos fichiers markdown ainsi que les images dans le dossier Markdown et renommer les markdown1.md, markdown2.md etc..
+Pour commencer placer vos fichiers markdown ainsi que les images dans le dossier Markdown et renommer les markdown1.md, markdown2.md etc.. ( gére fichier markdown robuste )
 
 ```
 PS C:\Users\Desktop\convertMdToHtml> ls
@@ -82,4 +82,8 @@ Mode                LastWriteTime         Length Name
 -a----       16/01/2019     15:49            895 ** index.html **
 
 ```
+
+# 4
+
+Vous pouvez modifier le css ainsi que le header et le footer html de vos pages en modifiant les fichiers basecss.txt, basehtml.txt et fin_html.txt dans le dossier template.
 
