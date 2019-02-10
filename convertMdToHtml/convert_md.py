@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import markdown
+import markdown2
 import codecs
 import argparse
 from pathlib import Path
@@ -33,7 +34,7 @@ def convert_to_html(pathMd, p, index):
         md = "./Markdown/" + p[index-1].name
     fichier_md = codecs.open(md, mode="r", encoding="utf-8")
     text = fichier_md.read()
-    html = markdown.markdown(text)
+    html = markdown2.markdown(text)
     fichier = open("./template/html_first.html", "w")
     fichier.write(html)
     fichier.close()
@@ -58,7 +59,7 @@ def create_html(pathSite, index):
     fichier = open(site, "a")
     base_html = codecs.open("./template/basehtml.txt", mode="r", encoding="utf-8")
     txt_baseHtml = base_html.read()
-    body_html = codecs.open("./template/html_set.html", mode="r", encoding="utf-8")
+    body_html = codecs.open("./template/html_set.html", mode="r")
     bodyHtml = body_html.read()
     footer_html = codecs.open("./template/fin_html.txt", mode="r", encoding="utf-8")
     footerHtml = footer_html.read()
