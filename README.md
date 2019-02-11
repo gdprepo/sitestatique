@@ -49,7 +49,7 @@ PS C:\Users\Desktop\convertMdToHtml\sitestatique\HTML> python .\convert_md.py -i
 
 ### 3
 
-Et vous trouverai les fichiers index.html et index.css dans le dossier sitestatique 
+Et vous trouverez les fichiers index.html et index.css dans le dossier sitestatique 
 ```
 PS C:\Users\Desktop\convertMdToHtml\sitestatique> ls
     Répertoire : C:\Users\Desktop\convertMdToHtml\sitestatique
