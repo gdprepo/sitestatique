@@ -42,9 +42,9 @@ def convert_to_html(pathMd, p, index):
     fichier_set = open("./template/html_set.html", "w")
     for ligne in fichier:
         if check == 0:
-            fichier_set.write('\t')
+            fichier_set.write('\t\t')
             check = check + 1
-        fichier_set.write(ligne.replace('\n', '\n\t'))
+        fichier_set.write(ligne.replace('\n', '\n\t\t'))
     fichier.close()
 
 def create_html(pathSite, index):
